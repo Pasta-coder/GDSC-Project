@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .dashboard {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .chart-container {
+    margin: 20px 0;
+  }
+  
+  canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
